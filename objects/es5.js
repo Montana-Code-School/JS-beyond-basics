@@ -13,7 +13,7 @@ person.age = 26
 // console.log('lastName ', person.lastName, person['lastName'])
 
 
-person.getName()
+// person.getName()
 // console.log('person keys ', Object.keys(person))
 
 var personArray = ['Ed', 'Missoula', 'Montana']

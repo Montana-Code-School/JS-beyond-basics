@@ -17,7 +17,7 @@ const person_es6 = {
     }
   }
 }
-console.log('person_es6  name', person_es6.name)
+// console.log('person_es6  name', person_es6.name)
 
 // person_es6.getLocation()
 
