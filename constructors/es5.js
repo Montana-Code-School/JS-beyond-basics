@@ -1,19 +1,18 @@
 function Person(name, age) {
   this.name = name
   this.age = age
-
 }
 
 Person.prototype = {
-  sayName: function() {
+  sayName: function () {
     return 'Hi, I am ' + this.name
   },
 
-  increaseAge: function(num) {
+  increaseAge: function (num) {
     this.age += num;
   },
 
-  getAge: function() {
+  getAge: function () {
     return this.age;
   }
 }
@@ -29,7 +28,7 @@ function Child(name, age, parent) {
 // Child.prototype = Person.prototype
 Child.prototype = Object.create(Person.prototype)
 
-Child.prototype.getParentName = function() {
+Child.prototype.getParentName = function () {
   if (this.parent) {
     return this.parent.sayName();
   }

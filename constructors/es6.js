@@ -35,6 +35,7 @@ class Kid extends Parent {
 }
 
 const kid = new Kid('Suzie', 12, parent);
+console.log(kid)
 // console.log(kid.getParentName())
 // console.log(kid.sayName())
 // console.log(parent.getParentName())
